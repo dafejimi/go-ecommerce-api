@@ -39,7 +39,6 @@ ecommerce-api/
 │   └── order_repository.go
 ├── services/
 │   ├── auth_service.go
-│   ├── user_service.go
 │   ├── product_service.go
 │   └── order_service.go
 ├── utils/
@@ -86,7 +85,6 @@ DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=ecommerce
 JWT_SECRET=your_secret_key
-PORT=8080
 ```
 
 3. Run:
